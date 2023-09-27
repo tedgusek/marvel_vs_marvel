@@ -7,6 +7,19 @@
   pointer-events: none;
 }
 
+#mvm {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+#marvelLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
